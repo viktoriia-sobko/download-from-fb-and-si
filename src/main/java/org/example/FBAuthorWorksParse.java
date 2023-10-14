@@ -79,14 +79,6 @@ public class FBAuthorWorksParse {
                 System.out.println(works.get(j).text() + ".txt");
                 fileWriter.write(sb.toString());
                 fileWriter.flush();
-//                System.out.println(chapters.attr("href"));
-//                for(int k = 0; k < chapters.size(); k++) {
-//                    Document oneChapterPage = Jsoup
-//                            .connect(startUrl + "s")
-//                            .userAgent("Mozilla/5.0")
-//                            .get();
-//
-//                }
             }
         }
     }

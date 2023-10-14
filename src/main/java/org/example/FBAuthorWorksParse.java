@@ -18,7 +18,7 @@ public class FBAuthorWorksParse {
         String startUrl = "https://ficbook.net";
 
         Document authorPage = Jsoup
-                .connect(startUrl + "/authors/2520")
+                .connect(startUrl + "/authors/XXXX")
                 .userAgent("Chrome/33.0.1750.152 Safari/537.36")
                 .get();
 

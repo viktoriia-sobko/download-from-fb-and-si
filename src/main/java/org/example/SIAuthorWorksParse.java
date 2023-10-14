@@ -3,19 +3,13 @@ package org.example;
 import lombok.SneakyThrows;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
-import java.io.BufferedReader;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
 
 public class SIAuthorWorksParse {
     @SneakyThrows
     public static void main(String[] args) {
-        String startUrl = "http://samlib.ru/s/strannik9000/";
+        String startUrl = "http://samlib.ru/s/XXXX/";
 
         Document worksPage = Jsoup
                 .connect(startUrl)
